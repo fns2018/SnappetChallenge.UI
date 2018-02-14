@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F2F5F7;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+.btn {
+  border-radius: 3px;
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-default {
+  border: 1px solid lightgray;
+}
+
+.btn-blue {
+  background-color: #34A3D7;
+  color: white;
+}
+
+.btn-purple {
+  background-color: #C32451;
+  color: white;
+}
+
+.text-blue {
+  color: #34A3D7;
+}
+
+.icon {
+  fill: currentColor;
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.icon-header {
+  fill: currentColor;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: text-bottom;
+  font-size: 1.2em;
+}
+
+.icon-large {
+  font-size: 1.4em;
+}
+
+@media screen and (max-width: 900px) {
+    .btn {
+        margin-left: 0;
+    }
+}

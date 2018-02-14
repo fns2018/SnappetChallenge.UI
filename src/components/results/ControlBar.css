@@ -1,0 +1,57 @@
+.control-bar {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.control-bar-left {
+    flex-grow: 1;
+}
+
+.control-bar-left > * {
+    display: inline-block;
+}
+
+.toggle-btn {
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.toggle-btn-left {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.toggle-btn-right {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+@media screen and (max-width: 900px) {
+    .control-bar {
+        flex-direction: column;
+    }
+
+    .control-bar-left {
+        width: 100%;
+        display: flex;
+    }
+
+    .toggle-btn {
+        
+        margin-top: 10px;
+    }
+
+    .dropdown {
+        margin-left: 10px;
+        flex-grow: 100;
+    }
+
+    .btn {
+        margin: 10px 0 0 0;
+    }
+}
